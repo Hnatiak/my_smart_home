@@ -1,0 +1,22 @@
+{
+    "commands": [
+        {
+            "keywords": ["відкрий гугл", "відкрити гугл", "відкрий google", "відкрити google"],
+            "action": "openGoogle"
+        },
+        {
+            "keywords": ["відкрий ютуб",  "відкрити ютуб", "відкрий youtube", "відкрити youtube"],
+            "action": "openYouTube"
+        },
+        {
+            "keywords": ["відкрий фейсбук", "відкрити фейсбук", "відкрити facebook", "відкрий facebook"],
+            "action": "openFacebook"
+        }
+    ],
+    "speak_with_bot": [
+        {
+            "keywords": ["привіт", "здоров", "салют", "здоров був"],
+            "answer": "Hello! How can I assist you?"
+        }
+    ]
+}

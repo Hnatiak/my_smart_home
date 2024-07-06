@@ -1,0 +1,26 @@
+{
+  "name": "my_smart_home",
+  "version": "1.0.0",
+  "description": "First Project",
+  "main": "main.js",
+  "scripts": {
+    "test": "test-project",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hnatiak/my_smart_home.git"
+  },
+  "keywords": [
+    "smart"
+  ],
+  "author": "Roman Hnatiak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hnatiak/my_smart_home/issues"
+  },
+  "homepage": "https://github.com/Hnatiak/my_smart_home#readme",
+  "devDependencies": {
+    "electron": "^31.1.0"
+  }
+}

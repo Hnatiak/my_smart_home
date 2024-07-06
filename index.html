@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контроль ПК</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="contents">
+            <div id="frame1">
+                <button onclick="buttonAction(1)" class="change_color">Button 1</button>
+                <button onclick="buttonAction(2)" class="change_color">Button 2</button>
+            </div>
+            <div id="frame2">
+                <label id="label">Якийсь текст</label>
+            </div>
+        </div>
+        <div class="container">
+            <div id="frame3"></div>
+        </div>
+        <div class="contents">
+            <div id="frame4">
+                <button onclick="changeBgColor('black')" class="change_color">Чорний фон</button>
+                <button onclick="changeBgColor('white')" class="change_color">Білий фон</button>
+            </div>
+            <div id="frame5">
+                <div id="chat_log"></div>
+                <input type="text" id="entry_message" onkeydown="if(event.key === 'Enter') sendMessage()">
+                <button onclick="sendMessage()" class="change_color">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
